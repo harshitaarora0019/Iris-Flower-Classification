@@ -111,6 +111,26 @@ Project documentation and explanation
 <li>Evaluating model performance using accuracy and confusion matrix</li>
 <li>Visualizing data for better understanding</li>
 </ul>
+<hr>
+
+<h2><b>📊 Output Visualizations</b></h2>
+
+<h3>Confusion Matrix</h3>
+<p>
+This confusion matrix shows how well the Logistic Regression model classifies
+each Iris flower species.
+</p>
+<img src="Confusion Matrix for Iris Species Classification.png" width="500">
+
+<br><br>
+
+<h3>Species Distribution Plot</h3>
+<p>
+This scatter plot visualizes the distribution of Iris flower species based on
+petal length and petal width.
+</p>
+<img src="Iris Flower Species Distribution Based on Measurements.png" width="500">
+
 
 <hr>
 <h2>📌 Conclusion</h2>
