@@ -1,44 +1,36 @@
-<h2>📌 Project Summary</h2>
+<h1 align="center">🌸 Iris Flower Classification using Machine Learning</h1>
+<p align="center">
+A machine learning project that predicts Iris flower species using Logistic Regression.
+</p>
+<p>
+This project focuses on classifying Iris flowers into different species using
+machine learning. The classification is done based on flower measurements such
+as sepal length, sepal width, petal length, and petal width. A Logistic Regression
+model is used for training and prediction.
+</p>
+
+<h2><b>📌 Project Summary</b></h2>
 
 <table border="1" cellpadding="8">
 <tr>
 <th>Aspect</th>
-<th>Details</th>
+<th>Explanation</th>
 </tr>
 
 <tr>
-<td><b>Use</b></td>
+<td><b>Working</b></td>
 <td>
-Classifies Iris flowers into different species based on sepal and petal measurements.
-Helps understand basic supervised machine learning classification.
+The Iris dataset is loaded from the sklearn library and split into training and
+testing sets. A Logistic Regression model is trained using the training data and
+then used to predict the species of flowers in the test data.
 </td>
 </tr>
 
 <tr>
-<td><b>Speed</b></td>
+<td><b>Prediction</b></td>
 <td>
-Logistic Regression trains very fast on small datasets like Iris.
-Prediction and evaluation are completed within milliseconds.
-</td>
-</tr>
-
-<tr>
-<td><b>Visualization</b></td>
-<td>
-<ul>
-<li>Bar graph showing model accuracy</li>
-<li>Confusion matrix for performance evaluation</li>
-<li>Scatter plot of petal length vs petal width</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td><b>Conclusion</b></td>
-<td>
-The model achieves high accuracy and effectively classifies Iris species.
-This project demonstrates the simplicity and efficiency of Logistic Regression
-for well-structured datasets.
+The trained model predicts the Iris flower species as
+Setosa, Versicolor, or Virginica based on the given input measurements.
 </td>
 </tr>
 
